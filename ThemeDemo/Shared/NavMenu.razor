@@ -5,7 +5,7 @@
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <img src=@logo height="50"/>
-        <a class="navbar-brand" href="">ThemeDemo</a>
+        <a class="navbar-brand" href="">BlazorThemeSwitchDemo</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +46,7 @@
 
     void CheckboxClicked()
     {
-        isDefaultStylesheet = !isDefaultStylesheet;
+        
         if (isDefaultStylesheet)
         {
             checkedMessage = "Set alt";
@@ -59,5 +59,6 @@
             stylesheet = "css/site.css";
             logo = "icon-192.png";
         }
+        isDefaultStylesheet = !isDefaultStylesheet;
     }
 }

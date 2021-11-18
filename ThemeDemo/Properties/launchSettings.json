@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "ThemeDemo": {
+    "BlazorThemeSwitchDemo": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
