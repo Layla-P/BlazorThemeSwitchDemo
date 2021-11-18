@@ -10,3 +10,7 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+
+.sidebar {
+  background-color: peachpuff;
+}
